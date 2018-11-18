@@ -4,7 +4,7 @@ public class User {
 	
 	private int id;
 	private String username;
-	private String ages;
+	private String age;
 	private String name;
 	public int getId() {
 		return id;
@@ -18,11 +18,11 @@ public class User {
 	public void setUsername(String username) {
 		this.username = username;
 	}
-	public String getAges() {
+	public String getAge() {
 		return ages;
 	}
-	public void setAges(String ages) {
-		this.ages = ages;
+	public void setAge(String age) {
+		this.age = age;
 	}
 	public String getName() {
 		return name;
@@ -32,7 +32,7 @@ public class User {
 	}
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", username=" + username + ", ages=" + ages + ", name=" + name + "]";
+		return "User [id=" + id + ", username=" + username + ", age=" + age + ", name=" + name + "]";
 	}
 	
 
